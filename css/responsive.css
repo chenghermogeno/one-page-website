@@ -1,0 +1,511 @@
+/* ----------- Non-Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+
+
+
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+}
+
+/*for tablet*/
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+  .header-wrapper {
+    display: inline-flex;
+    width:100%;
+  }
+
+  .navbar li {
+      margin: 10px;
+      padding: 10px;
+  }
+
+  .logo {
+    padding: 37px 20px 20px 35px;
+  }
+
+  .bg-banner h1 {
+    top: 21%;
+    font-size: 50px;
+  }
+
+  .whoWeAreContent {
+    margin: 0 0 76px 0;
+    padding: 15px;
+    font-size: 18px;
+  }
+
+  .ourPassion {
+    font-size: 38px;
+  }
+
+  .our--products {
+    font-size: 42px;
+  }
+
+  .what-we-offer--content {
+    padding: 20px;
+    margin-left: 0;
+  }
+
+/*our products photo*/
+.image--grid {  
+  float: left;
+  width: 50%;
+  position: relative;
+}
+
+.image_box {
+  display: block;
+  height: auto;
+  width: 100%;
+  padding: 3px;
+
+}
+
+.grit--slab {
+  height: 303px;
+  padding-top: 58px;
+}
+
+.grit--slab h4 {
+  font-size: 38px;
+  padding-top: 0px;
+}
+
+.image-row img {
+    width: 32.9% !important;
+}
+
+.what-we-offer--grid {
+    width: 79%;
+}
+
+.what-we-offer--grid .row p {
+    font-size: 18px;
+}
+/*3 photo gallery*/
+
+.image-row img {
+  width: 33%;
+  display: inline-block;
+}
+
+/*slideshow container*/
+.slideshow-container h1 {
+  font-size: 38px !important;
+}
+
+.numbertext {
+    top: 50px;
+}
+
+.slide-img {
+  width: 30%;
+  float: left;
+  padding-left: 89px;
+}
+
+.slide-img img {
+  width: 360%;
+  height: auto;
+}
+
+.slide-text {
+  width: 60%;
+  float: left;
+  padding: 337px 10px 48px 0;
+  font-size: 15px;
+}
+
+.mySlides .text--title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 277px;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background-color: black;
+}
+
+
+/*who we serve*/
+
+.who-we--serve h2 {
+    color: #c7a95d;
+    font-weight: bold;
+    font-size: 33px;
+    padding-bottom: 36px;
+}
+
+.needs-list {
+    width: 33%;
+    padding: 20px 20px 70px;
+    float: left;
+}
+
+.unique-customers {
+    margin: -40px;
+}
+
+.unique-customers img {
+    width: 100%;
+    max-width: 344px;
+    margin: 0 -11px 47px;
+    display: block;
+    padding: 10px 12px;
+  }
+
+.unique-customers h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: -44px;
+    padding-bottom: 44px;
+}
+
+.unique-customers p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 4px;
+}
+
+.unique-link a {
+    font-size: 18px;
+}
+
+/*loyal customer*/
+.loyal-slideshow-container h1 {
+    font-size: 33px;
+}
+
+.loyal-slides {
+    padding: 80px 80px;
+    font-size: 21px;
+}
+
+.cname {
+    font-size: 15px;
+}
+
+/*contact us*/
+.contact-us h2 {
+  font-size: 33px;
+}
+
+.showroom-row p {
+  font-size: 15px;
+}
+
+/*contact us form*/
+.fill-up h2{
+  font-size: 18px;
+}
+
+.fill-up label {
+  font-size: 15px;
+}
+
+.column textarea {
+  height: 150px;
+}
+
+/*footer*/
+
+
+.showroom--row a {
+  font-size: 18px;
+}
+
+}
+
+/*for mobile phones*/
+
+/* Portrait and Landscape */
+@media screen 
+   and (min-device-width: 360px) 
+  and (max-device-width: 640px) 
+  and (-webkit-device-pixel-ratio: 1) {
+
+
+.header-wrapper {
+  display: none;
+}
+
+.bg-banner h1 {
+  left: 18%;
+  transform: translate(-11%, -32%);
+  height: 407px;
+  font-size: 45px;
+}
+
+.bg-banner img {
+  width: 315%;
+}
+
+.ourPassion {
+  font-size: 32px;
+
+}
+
+.whoWeAreContent {
+  text-align: left;
+  font-size: 15px;
+  margin-left: -9px;
+  margin-right: -9px;
+  margin-bottom: 45px;
+}
+
+.about-us a {
+  font-size: 16px;
+  margin-left: -33px;
+  margin-right: -32px;
+}
+
+.about-us {
+  padding: 20px 20px 93px;
+}
+
+.our-products h3 {
+  margin-top: 54px;
+}
+
+.our--products {
+  font-size: 32px;
+}
+
+.what-we-offer--content {
+  padding: 7px 79px;
+  font-size: 16px;
+  margin-left: -36px;
+  margin-right: -43px;
+}
+
+.image--grid {
+  width: 100%;
+}
+
+.grit--slab {
+  height: 272px;
+  background-position: center;
+}
+
+.grit--slab h4 {
+  font-size: 32px;
+  font-size: 36px;
+  line-height: 40.8px;
+  padding-top: 61px;
+}
+
+.what-we-offer--grid .row {
+  width: 100%;
+}
+
+.visit-btn {
+  font-size: 16px;
+}
+
+.image-row img {
+  width: 100%;
+}
+
+.slideshow-container h1 {
+  font-size: 30px;
+}
+
+.numbertext {
+  font-size: 12px;
+  padding: 114px 12px;
+}
+
+.prev {
+  left: -29px;
+}
+
+.next {
+  right: -29px;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+}
+
+.slide-img img {
+  width: 234%;
+  height: auto;
+}
+
+.mySlides .text--title {
+  font-size: 20px !important;
+}
+
+.slide-text {
+  width: 100%;
+  font-size: 16px;
+  padding: 0px;
+  text-align: center;
+}
+
+.slide-text .text {
+  padding-bottom: 30px;
+}
+
+.who-we--serve {
+  padding: 0;
+}
+
+.who-we--serve h1 {
+  margin: 36px;
+  padding-top: 65px;
+}
+
+.who-we--serve h2 {
+  font-size: 32px;
+  padding-top: 30px;
+  line-height: 40px;
+}
+
+.unique-customers img {
+  width: 100%;
+}
+
+.needs-list {
+  width: 100%;
+  padding: 20px 0px 70px;
+}
+
+.unique-customers h3 {
+  font-size: 19px;
+}
+
+.unique-customers p {
+  font-size: 18px;
+  line-height: 31px;
+  margin: 20px -19px -22px -18px;
+}
+
+.unique-link a {
+  font-size: 16px;
+}
+
+.loyal-slideshow-container h1 {
+  padding-top: 52px;
+  font-size: 32px;
+}
+
+.loyal-slides {
+  padding: 26px 46px;
+  font-size: 19px;
+}
+
+.cname {
+  font-size: 15px;
+  padding-top: 14px;
+}
+
+.dot-container {
+  padding-bottom: 76px;
+}
+
+.loyal-dot {
+  height: 10px;
+  width: 10px;
+}
+
+
+.contact-us h1 {
+  margin: 36px;
+}
+
+.contact-us h2 {
+  font-size: 32px;
+}
+
+.showroom-flex {
+  flex-direction: column;
+}
+
+.showroom-row {
+  width: 100%;
+  margin-left: -41px;
+}
+
+.showroom-row img {
+  width: 133%;
+}
+
+.showroom-row h3 {
+  font-size: 19px;
+  margin-right: -6px;
+}
+
+.showroom-row p {
+  text-align: left;
+  font-size: 23px;
+}
+
+.fill-up {
+  margin-left: 13px;
+}
+
+.fill-up h2 {
+  font-size: 21px;
+}
+
+.showroom-address {
+  flex-direction: column;
+  margin-left: -25px;
+  margin-right: 54px;
+  padding: 30px 2px;
+}
+
+.showroom--row a {
+  padding-right: 5px;
+}
+
+
+.showroom-address {
+    margin-top: 87px;
+    padding: 30px 2px;
+    display: flex;
+    margin-left: -25px;
+    margin-right: 54px;
+
+
+
+
+
+
+
+
+
+
+
+
+}
